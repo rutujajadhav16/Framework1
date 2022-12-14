@@ -12,9 +12,6 @@ public class Base {
 		System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		
-		
-		
 		driver.get("https://neostox.com/");
 		Reporter.log("Entering url",true);
 		Reporter.log("Git installed",true);

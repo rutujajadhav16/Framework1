@@ -18,6 +18,8 @@ public class ExplicitWait {
 		driver.get("https://sellglobal.ebay.in/seller-center/");
 		
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		
+		
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("START SELLING")));
 		element.click();
 

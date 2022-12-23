@@ -24,5 +24,7 @@ public class Use1
 		ExtentTest test3=extent.createTest("Test3");
 		test3.skip("Test 3 skipped");
 		extent.flush();
+	
+		System.out.println("Report Created");
 	}
 }

@@ -26,5 +26,7 @@ public class Use1
 		extent.flush();
 	
 		System.out.println("Report Created");
+
+		System.out.println("Report Created");
 	}
 }
